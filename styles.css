@@ -1,0 +1,82 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+body,
+h1,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS untuk mengubah font pada judul halaman web di tab peramban */
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #402b2b;
+}
+
+img {
+    margin-top: 20px;
+    width: 242.5px;
+    height: 100px;
+}
+
+body {
+    background-color: #F8E8EE;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Untuk mengisi tinggi layar secara vertikal */
+    margin: 0 auto;
+}
+
+
+form {
+    text-align: center;
+    font-family: Helvetica;
+    margin: 20px;
+    background-color: #FFECEC;
+    border: 2px solid #fbadbb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(107, 82, 82, 0.406);
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #322020;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff99b6;
+    border-radius: 3px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #cd6183;
+}
+
+#result {
+    font-family: Helvetica;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2c2121;
+}
+
+footer {
+    font-family: x, cursive;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* height: 110px;   Height of the footer */
+    /* margin-top: 50px;
+    text-align: center;
+    padding: 3px; */
+    background-color: rgb(233, 122, 157);
+    color: white;
+}
